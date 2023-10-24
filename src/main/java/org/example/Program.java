@@ -15,7 +15,7 @@ public class Program {
         System.out.println("***");
         System.out.println();
 
-        Arrays.sort(staffers/*, new SalaryComparator()*/);
+        Arrays.sort(staffers, new OldComparator());
 
         for (Employee staffer : staffers) {
             System.out.println(staffer);
